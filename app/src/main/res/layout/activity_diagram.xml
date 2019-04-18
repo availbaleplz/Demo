@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:paddingTop="20dp"
+    android:gravity="center_horizontal">
+
+    <RadioGroup
+        android:id="@+id/rg_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:checked="true"
+            android:text="day"
+            android:textSize="15sp"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/rb_textcolor"
+            android:background="@drawable/rb_diagram"/>
+        <RadioButton
+            android:id="@+id/rb_w"
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:text="week"
+            android:textSize="15sp"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/rb_textcolor"
+            android:background="@drawable/rb_diagram"/>
+        <RadioButton
+            android:id="@+id/rb_m"
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:text="month"
+            android:textSize="15sp"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/rb_textcolor"
+            android:background="@drawable/rb_diagram"/>
+    </RadioGroup>
+
+</LinearLayout>
